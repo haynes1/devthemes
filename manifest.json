@@ -1,0 +1,12 @@
+{
+  "name": "Dev Themes",
+  "version": "0.1.0",
+  "description": "Dark Themes for Google and Stack Overflow",
+
+  "content_scripts": [{
+    "css":["styles.css"],
+    "js":["alert.js"],
+    "matches":["https://www.google.com/*"]
+  }],
+  "manifest_version": 2
+}
